@@ -40,3 +40,10 @@ print(b)
 b[:,1] = [9,0]
 print(b)
 
+#3d example
+c = np.array([[1,2],[3,4]],[[5,6],[7,8]])
+print(c)
+
+#getting specfic element[b,r,c]
+c[1,1,0]
+
