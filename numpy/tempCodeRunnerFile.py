@@ -1,2 +1,2 @@
-a = np.random.rand(4,2 ,shape(3,3))
+a = np.full((2,2),9)
 print(a)
