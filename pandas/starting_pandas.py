@@ -12,3 +12,12 @@ print(ap[ap>5]) # conditional selection
 
 dates = pd.date_range("20130101",periods=6) 
 print(dates)
+
+#dictionary to series
+calories = {"Day1":420,"Day2":380,"Day3":390}
+s = pd.Series(calories)
+print(s)
+
+s.loc['Day2'] = s.loc['Day2'] + 100
+print(s)
+print(s[s > 400])
