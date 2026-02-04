@@ -26,3 +26,6 @@ print(df.loc["Greninja"])
 #editing a cell
 df.at["greninja","Region"] = "kalos"
 print(df.loc["greninja"])
+
+#slicing
+print(df.iloc[0:5])
